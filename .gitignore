@@ -1,0 +1,27 @@
+# Environment variables & secrets
+.env
+*.env
+**/.env
+
+# Google ADK local files & databases
+.adk/
+**/.adk/
+*.db
+
+# Python Virtual Environments
+.venv/
+my-adk-env/
+venv/
+ENV/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# OS metadata
+.DS_Store
+**/.DS_Store
